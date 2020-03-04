@@ -41,5 +41,4 @@
 + ```git commit -am "初始化"``` ""引号包含的是提交的名字或者是原因
 + ```git remote add origin git@github.com:Smecta/django-web.git``` 其中 origin 是源头，大家都这么起名，可以是任何名称 后面代表的github上该仓库的ssh连接
 + 如果出现fatal: remote origin already exists. 代表已存在origin 删除即可 ```git remote rm origin``` 再次提交即可
-
-
++ ```git push -u origin master``` 推送到github上
