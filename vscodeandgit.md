@@ -42,3 +42,23 @@
 + ```git remote add origin git@github.com:Smecta/django-web.git``` 其中 origin 是源头，大家都这么起名，可以是任何名称 后面代表的github上该仓库的ssh连接
 + 如果出现fatal: remote origin already exists. 代表已存在origin 删除即可 ```git remote rm origin``` 再次提交即可
 + ```git push -u origin master``` 推送到github上
+
+## git 从远程拉取代码、推代码的步骤
+### 如果是几个人共同管理项目，并且你的队友在你之前推过代码，那你就需要 git pull 一下，把代码拉到本地，解决一下冲突，再执行以下步骤，将本地代码推到远程仓库。
+
++ 第一步：查看当前的git仓库状态，可以使用git status。
+
+  ```git status```
++ 第二步：把更新的代码添加到暂存区。
+
+  ```git add *```
++ 第三步：将暂存区的更新提交到仓库区。
+
+  ```git commit -m "更新说明" ```（更新说明，是本次推送代码的标识，写什么都可以，只要自己看得懂）
++ 第四步：先git pull,拉取远程仓库所有分支更新并合并到本地。
+
+  ```git pull```
++ 第五步：将本地分支的更新全部推送到远程仓库。
+
+  ```git push origin master```
++ 第六步．再次使用```git status```查看当前的git仓库状态，已经没有改动，证明更新成功
