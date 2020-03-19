@@ -95,6 +95,7 @@ z test # 跳转到最近包含test字符的目录
 - vetur - vue 高亮
 - REST Client - Vscode里的PostMan
 - Remote - SSH - 用vscode打开服务器文件夹
+- Bracket Pair Colorizer 括号颜色
 
 ## Chrome
 
