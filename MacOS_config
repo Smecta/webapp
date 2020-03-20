@@ -1,8 +1,12 @@
 
 打造更顺手的 MacOS
 
+
 > 如无特殊说明，所有命令均在 “终端” 中运行。(F4或四指捏合调出应用程序 - 输入term - return)
 
+## 字体
+-   mononoki : http://madmalik.github.io/mononoki/
+-   将vscode iterm2 字体变更为 mononoki 
 ## 小技巧
 - 快速打开软件： F4或触摸板四指捏合 - 打字搜索 (一般是英文)，如: 输入sys会高亮显示系统偏好设置, term 会显示终端；回车键打开软件
 - command + ` 切换同一app的不同窗口，比如vscode的多个项目；command + tab 切换不同app，如vscode 和 chrome
