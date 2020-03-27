@@ -75,3 +75,8 @@
 
 + 多分支开发
 
++ ```git branch -v``` 查看我们当前有哪些分支？
++ ```git checkout -b b1``` 
++ ```git checkout master```
++ ```git merge b1```  将b1分支合并到master分支
+
